@@ -1,0 +1,1 @@
+time="2025-08-12T16:38:04+01:00" level=error msg="Handshake failed chatgpt.com tls: CurvePreferences includes unsupported curve" func=http-proxy/proxy.HandleHTTPS file="C:/tls/proxy/http.go:159"
