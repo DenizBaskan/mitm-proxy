@@ -2,7 +2,7 @@
 A command line proxy used to inspect HTTP/HTTPS and WebSocket traffic. MITM is used to inspect TLS traffic through creating fake site certificates on the fly.
 
 ## Get started
-Since we are spoofing TLS certificates dynamically we need the local machine to trust our certificates. This can be done through installing a Root Certificate Authority (RootCA) certificate into the system's trusted certificate store.
+By default, the proxy runs on port `8080`. You can set an HTTP proxy on windows in settings. Since we are spoofing TLS certificates dynamically we need the local machine to trust our certificates. This can be done through installing a Root Certificate Authority (RootCA) certificate into the system's trusted certificate store.
 Navigate to `http://cert` in a browser to download the certificate. On windows, simply double click the certificate after it has been downloaded and install it in the `Trusted Root Certification Authorities` store. After installation, you may need to restart the proxy. You should now be able to proxy HTTPS traffic. 
 
 ### Showcase
